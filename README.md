@@ -9,3 +9,4 @@ npm install
 webpack -w
 ```
 # react-boilerplate
+# react-es6-webpack-reactrouter
