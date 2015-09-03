@@ -8,3 +8,4 @@ To run:
 npm install
 webpack -w
 ```
+# react-boilerplate
