@@ -1,13 +1,26 @@
 import React from 'react';
-import Body from './body.js'
+import { RouteHandler } from 'react-router';
 
 class Main extends React.Component {
 
 	render() {
 		return (
-			<Body/>
+			<div className="main-container">
+				<nav 
+					className="navbar navbar-default" 
+					role="navigation">
+					<div 
+						className="col-sm-7 col-sm-offset-2" 
+						style={{marginTop: 10}}>
+						// NAVIGATION AND SEARCH
+					</div>
+				</nav>
+				<div className="container">
+					<RouteHandler />
+				</div>
+			</div>
 		);
 	}
 }
 
-React.render(<Main/>, document.getElementById('app'));
+export default Main;
