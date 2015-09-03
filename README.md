@@ -8,9 +8,4 @@ To run:
 npm install
 webpack -w
 ```
-<<<<<<< HEAD
-# react-boilerplate
-# react-es6-webpack-reactrouter
-=======
 
->>>>>>> f3a4fc6e275e938f5274e46f27a7875f14ab9020
